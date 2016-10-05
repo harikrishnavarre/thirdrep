@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="217049" started-at="2016-10-05T09:50:05Z" finished-at="2016-10-05T09:53:42Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="217049" started-at="2016-10-05T09:50:05Z" finished-at="2016-10-05T09:53:42Z">
+      <class name="com.datadriven.WordPress">
+        <test-method status="PASS" signature="LoginWordPass(java.lang.String, java.lang.String)[pri:0, instance:com.datadriven.WordPress@1f4f00f]" name="LoginWordPass" duration-ms="152983" started-at="2016-10-05T15:20:07Z" data-provider="wordpressData" finished-at="2016-10-05T15:22:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWordPass -->
+        <test-method status="PASS" signature="LoginWordPass(java.lang.String, java.lang.String)[pri:0, instance:com.datadriven.WordPress@1f4f00f]" name="LoginWordPass" duration-ms="42529" started-at="2016-10-05T15:22:40Z" data-provider="wordpressData" finished-at="2016-10-05T15:23:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWordPass -->
+        <test-method status="PASS" signature="LoginWordPass(java.lang.String, java.lang.String)[pri:0, instance:com.datadriven.WordPress@1f4f00f]" name="LoginWordPass" duration-ms="19475" started-at="2016-10-05T15:23:22Z" data-provider="wordpressData" finished-at="2016-10-05T15:23:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWordPass -->
+      </class> <!-- com.datadriven.WordPress -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
